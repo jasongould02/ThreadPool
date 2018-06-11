@@ -22,8 +22,8 @@ public class Test {
 			pool.queueTask(new Runnable() {
 				@Override
 				public void run() {
-					for(int i = 0; i <= 1e10; i++) {
-						if(i == 1e8) {
+					for(int i = 0; i <= 1e9; i++) {
+						if(i == 1e9) {
 							System.out.println("done " + Thread.currentThread().getName());
 						}
 					}
